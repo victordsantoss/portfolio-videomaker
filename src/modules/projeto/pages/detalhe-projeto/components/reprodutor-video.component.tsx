@@ -46,7 +46,7 @@ export function ReprodutorVideo({ video, capa, tituloProjeto, textos }: Readonly
     >
       <Image
         src={capa.url}
-        alt={capa.alt}
+        alt=""
         fill
         preload
         sizes="(min-width: 92rem) 85rem, 100vw"

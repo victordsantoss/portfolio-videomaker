@@ -33,7 +33,7 @@ export function SecaoHero({ hero, hrefTrabalhos, textoVerTrabalhos }: Readonly<I
       <div className="grid gap-10 pt-10 pb-20 md:grid-cols-12 md:items-end md:pt-14 md:pb-28">
         <h1
           id="hero-titulo"
-          className="titulo-cinema text-[clamp(2.75rem,6.9vw,6.5rem)] md:col-span-8"
+          className="titulo-cinema text-[clamp(2.75rem,6vw,5.75rem)] md:col-span-8"
         >
           {hero.linhasTitulo.map((linha, indice) => (
             <span key={linha} className="block overflow-hidden pb-[0.06em]">
