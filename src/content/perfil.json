@@ -1,0 +1,163 @@
+{
+  "nome": "Theo Arantes",
+  "especialidade": {
+    "pt": "Filmmaker e diretor de fotografia",
+    "en": "Filmmaker & cinematographer"
+  },
+  "hero": {
+    "linhasTitulo": {
+      "pt": ["Histórias visuais.", "Emoções reais."],
+      "en": ["Visual stories.", "Real emotions."]
+    },
+    "subtitulo": {
+      "pt": "Filmmaker e contador de histórias visuais",
+      "en": "Filmmaker & visual storyteller"
+    },
+    "local": {
+      "pt": "Baseado em Brasília, filmando em qualquer lugar.",
+      "en": "Based in Brasília, shooting anywhere."
+    },
+    "imagem": {
+      "url": "https://images.unsplash.com/photo-1536543049237-58f270b2d905",
+      "alt": {
+        "pt": "Montanha coberta por neblina, em preto e branco",
+        "en": "Fog-covered mountain in black and white"
+      }
+    }
+  },
+  "sobre": {
+    "foto": {
+      "url": "https://images.unsplash.com/photo-1576280314550-773c50583407",
+      "alt": {
+        "pt": "Silhueta de um cinegrafista segurando a câmera contra o céu",
+        "en": "Silhouette of a camera operator holding a camera against the sky"
+      }
+    },
+    "paragrafos": [
+      {
+        "pt": "Filmo pessoas, lugares e marcas procurando o que acontece entre uma fala e outra: o gesto antes da frase, a luz que muda no meio da cena.",
+        "en": "I film people, places and brands, looking for what happens between the lines: the gesture before the sentence, the light shifting mid-scene."
+      },
+      {
+        "pt": "Trabalho com equipes pequenas e luz natural sempre que possível. Planejo muito e interfiro pouco, para que a câmera acompanhe a história em vez de conduzi-la.",
+        "en": "I work with small crews and natural light whenever I can. I plan a lot and intervene little, so the camera follows the story instead of steering it."
+      }
+    ],
+    "fatos": [
+      {
+        "rotulo": { "pt": "Base", "en": "Based in" },
+        "valor": { "pt": "Brasília, DF", "en": "Brasília, Brazil" }
+      },
+      {
+        "rotulo": { "pt": "Atuação", "en": "Works in" },
+        "valor": { "pt": "Brasil e exterior", "en": "Brazil and abroad" }
+      },
+      {
+        "rotulo": { "pt": "Idiomas no set", "en": "Languages on set" },
+        "valor": { "pt": "Português e inglês", "en": "Portuguese and English" }
+      }
+    ]
+  },
+  "servicos": [
+    {
+      "titulo": { "pt": "Produção de filmes", "en": "Film production" },
+      "descricao": {
+        "pt": "Do roteiro à finalização, com equipe dimensionada para cada projeto.",
+        "en": "From script to final cut, with a crew sized for each project."
+      }
+    },
+    {
+      "titulo": { "pt": "Filmes publicitários", "en": "Commercial films" },
+      "descricao": {
+        "pt": "Campanhas e conteúdo de marca com linguagem de cinema.",
+        "en": "Campaigns and brand content with a cinematic language."
+      }
+    },
+    {
+      "titulo": { "pt": "Eventos", "en": "Events" },
+      "descricao": {
+        "pt": "Cobertura discreta, com cortes rápidos para redes sociais.",
+        "en": "Discreet coverage, with quick edits for social media."
+      }
+    },
+    {
+      "titulo": { "pt": "Lifestyle", "en": "Lifestyle" },
+      "descricao": {
+        "pt": "Pessoas e rotinas filmadas com naturalidade, sem encenação forçada.",
+        "en": "People and routines filmed as they are, without forced staging."
+      }
+    },
+    {
+      "titulo": { "pt": "Videoclipes", "en": "Music videos" },
+      "descricao": {
+        "pt": "Conceito visual, direção e fotografia para artistas independentes.",
+        "en": "Visual concept, direction and cinematography for independent artists."
+      }
+    },
+    {
+      "titulo": { "pt": "Drone e aéreo", "en": "Drone & aerial" },
+      "descricao": {
+        "pt": "Imagens aéreas com piloto habilitado e plano de voo aprovado.",
+        "en": "Aerial footage with a licensed pilot and an approved flight plan."
+      }
+    },
+    {
+      "titulo": { "pt": "Edição e pós-produção", "en": "Editing & post-production" },
+      "descricao": {
+        "pt": "Montagem, desenho de som e finalização para cada plataforma.",
+        "en": "Editing, sound design and delivery for every platform."
+      }
+    },
+    {
+      "titulo": { "pt": "Color grading", "en": "Color grading" },
+      "descricao": {
+        "pt": "Correção e identidade de cor para filmes, séries e campanhas.",
+        "en": "Color correction and look development for films, series and campaigns."
+      }
+    }
+  ],
+  "processo": [
+    {
+      "titulo": { "pt": "Briefing", "en": "Briefing" },
+      "descricao": {
+        "pt": "Entendemos o objetivo, o público e o prazo.",
+        "en": "We define the goal, the audience and the deadline."
+      }
+    },
+    {
+      "titulo": { "pt": "Planejamento", "en": "Planning" },
+      "descricao": {
+        "pt": "Roteiro, locações, equipe e cronograma aprovados antes de filmar.",
+        "en": "Script, locations, crew and schedule approved before the shoot."
+      }
+    },
+    {
+      "titulo": { "pt": "Produção", "en": "Production" },
+      "descricao": {
+        "pt": "Filmagem com equipe enxuta e comunicação direta.",
+        "en": "The shoot, with a lean crew and direct communication."
+      }
+    },
+    {
+      "titulo": { "pt": "Pós-produção", "en": "Post-production" },
+      "descricao": {
+        "pt": "Montagem, cor e som, com duas rodadas de ajustes.",
+        "en": "Edit, color and sound, with two rounds of revisions."
+      }
+    },
+    {
+      "titulo": { "pt": "Entrega", "en": "Delivery" },
+      "descricao": {
+        "pt": "Arquivos finais nos formatos e proporções combinados.",
+        "en": "Final files in the agreed formats and aspect ratios."
+      }
+    }
+  ],
+  "clientes": [],
+  "depoimentos": [],
+  "contatos": {
+    "email": "contato@exemplo.com.br",
+    "whatsapp": "5561900000000",
+    "instagram": "seuperfil"
+  }
+}

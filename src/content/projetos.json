@@ -1,0 +1,343 @@
+[
+  {
+    "slug": "linha-dagua",
+    "titulo": { "pt": "Linha d'Água", "en": "Waterline" },
+    "categoria": "CURTA",
+    "ano": 2025,
+    "local": { "pt": "Chapada dos Veadeiros, GO", "en": "Chapada dos Veadeiros, Brazil" },
+    "resumo": {
+      "pt": "Um curta documental sobre quem vive do rio e espera a chuva voltar.",
+      "en": "A short documentary about the people who live off the river and wait for the rain."
+    },
+    "contexto": {
+      "pt": "Depois de três anos de seca, uma comunidade ribeirinha reorganiza a rotina em torno de um rio cada vez mais raso.",
+      "en": "After three years of drought, a riverside community reshapes its routine around an ever shallower river."
+    },
+    "objetivo": {
+      "pt": "Registrar a espera sem transformá-la em espetáculo, dando tempo às pessoas e à paisagem.",
+      "en": "To record the waiting without turning it into a spectacle, giving time to people and landscape."
+    },
+    "papel": {
+      "pt": "Direção, fotografia e montagem.",
+      "en": "Direction, cinematography and editing."
+    },
+    "capa": {
+      "url": "https://images.unsplash.com/photo-1708525736169-534ee3e24e99",
+      "alt": {
+        "pt": "Trilha em meio a uma floresta com neblina",
+        "en": "Path through a foggy forest"
+      }
+    },
+    "video": { "plataforma": "youtube", "id": "WhWc3b3KhnY" },
+    "registros": [
+      {
+        "url": "https://images.unsplash.com/photo-1475070929565-c985b496cb9f",
+        "alt": {
+          "pt": "Rio correndo entre árvores altas",
+          "en": "River flowing between tall trees"
+        }
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1652780241487-f396513216ef",
+        "alt": { "pt": "Encosta com neblina e ovelhas", "en": "Foggy hillside with sheep" }
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1546165388-7b9d5231867e",
+        "alt": { "pt": "Árvores ao pé de uma montanha", "en": "Trees at the foot of a mountain" }
+      }
+    ],
+    "creditos": [
+      {
+        "funcao": { "pt": "Direção e fotografia", "en": "Director & cinematographer" },
+        "nome": "Theo Arantes"
+      },
+      { "funcao": { "pt": "Som direto", "en": "Production sound" }, "nome": "Lia Moura" },
+      { "funcao": { "pt": "Montagem e cor", "en": "Editing & color" }, "nome": "Theo Arantes" }
+    ],
+    "ehDestaque": true
+  },
+  {
+    "slug": "frequencia",
+    "titulo": { "pt": "Frequência", "en": "Frequency" },
+    "categoria": "VIDEOCLIPE",
+    "ano": 2025,
+    "cliente": "Selo Independente",
+    "local": { "pt": "São Paulo, SP", "en": "São Paulo, Brazil" },
+    "resumo": {
+      "pt": "Videoclipe filmado em uma única noite, com luz de palco e fumaça.",
+      "en": "A music video shot in a single night with stage light and haze."
+    },
+    "contexto": {
+      "pt": "A banda queria traduzir a sensação dos shows ao vivo para um clipe sem plateia.",
+      "en": "The band wanted to bring the feeling of their live shows into a video without an audience."
+    },
+    "objetivo": {
+      "pt": "Criar uma linguagem visual que acompanhasse o ritmo da música sem cortes excessivos.",
+      "en": "To build a visual language that follows the music's rhythm without excessive cutting."
+    },
+    "papel": {
+      "pt": "Direção de fotografia e color grading.",
+      "en": "Cinematography and color grading."
+    },
+    "capa": {
+      "url": "https://images.unsplash.com/photo-1657208431551-cbf415b8ef26",
+      "alt": {
+        "pt": "Feixes de luz azulada atravessando a fumaça de um palco escuro",
+        "en": "Blue light beams cutting through haze on a dark stage"
+      }
+    },
+    "video": { "plataforma": "youtube", "id": "UXqq0ZvbOnk" },
+    "registros": [
+      {
+        "url": "https://images.unsplash.com/photo-1546707012-c46675f12716",
+        "alt": {
+          "pt": "Silhueta de público diante do palco",
+          "en": "Silhouette of a crowd facing the stage"
+        }
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819",
+        "alt": {
+          "pt": "Pessoas em frente a um palco iluminado",
+          "en": "People in front of a lit stage"
+        }
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1459749411175-04bf5292ceea",
+        "alt": { "pt": "Show com luzes de palco", "en": "Concert with stage lights" }
+      }
+    ],
+    "creditos": [
+      { "funcao": { "pt": "Direção", "en": "Director" }, "nome": "Ana Teles" },
+      {
+        "funcao": { "pt": "Direção de fotografia", "en": "Cinematographer" },
+        "nome": "Theo Arantes"
+      },
+      { "funcao": { "pt": "Color grading", "en": "Colorist" }, "nome": "Theo Arantes" }
+    ],
+    "ehDestaque": true
+  },
+  {
+    "slug": "norte",
+    "titulo": { "pt": "Norte", "en": "North" },
+    "categoria": "AEREO",
+    "ano": 2024,
+    "local": { "pt": "Patagônia, Argentina", "en": "Patagonia, Argentina" },
+    "resumo": {
+      "pt": "Série aérea sobre montanhas que aparecem e somem entre as nuvens.",
+      "en": "An aerial series about mountains that appear and vanish through the clouds."
+    },
+    "contexto": {
+      "pt": "Dez dias de expedição com janelas curtas de tempo bom para voar.",
+      "en": "Ten days of expedition with short windows of good weather to fly."
+    },
+    "objetivo": {
+      "pt": "Mostrar a escala da paisagem com movimentos lentos e enquadramentos limpos.",
+      "en": "To show the scale of the landscape with slow moves and clean framing."
+    },
+    "papel": {
+      "pt": "Pilotagem, fotografia e finalização.",
+      "en": "Drone piloting, cinematography and finishing."
+    },
+    "capa": {
+      "url": "https://images.unsplash.com/photo-1634220954278-d90e1632d9bf",
+      "alt": {
+        "pt": "Montanha coberta de neve e nuvens em um dia nublado",
+        "en": "Snow-covered mountain wrapped in clouds on an overcast day"
+      }
+    },
+    "video": { "plataforma": "youtube", "id": "eRsGyueVLvQ" },
+    "registros": [
+      {
+        "url": "https://images.unsplash.com/photo-1621968828609-614f361c8fd9",
+        "alt": {
+          "pt": "Montanha em preto e branco sob nuvens",
+          "en": "Black and white mountain under clouds"
+        }
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1709134519538-b5a228a3bb89",
+        "alt": { "pt": "Pinheiro solitário na neve", "en": "A lone pine tree in the snow" }
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1610892508745-dc3b2bda04ae",
+        "alt": { "pt": "Turbina eólica em um campo de neve", "en": "Wind turbine on a snowy field" }
+      }
+    ],
+    "creditos": [
+      {
+        "funcao": { "pt": "Direção e pilotagem", "en": "Director & drone pilot" },
+        "nome": "Theo Arantes"
+      },
+      { "funcao": { "pt": "Produção", "en": "Producer" }, "nome": "Rafael Couto" }
+    ],
+    "ehDestaque": true
+  },
+  {
+    "slug": "noite-aberta",
+    "titulo": { "pt": "Noite Aberta", "en": "Open Night" },
+    "categoria": "EVENTO",
+    "ano": 2024,
+    "cliente": "Festival de Inverno",
+    "local": { "pt": "Brasília, DF", "en": "Brasília, Brazil" },
+    "resumo": {
+      "pt": "Filme de memória de um festival de música ao ar livre.",
+      "en": "An aftermovie for an open-air music festival."
+    },
+    "contexto": {
+      "pt": "Três palcos, dois dias e uma equipe de quatro câmeras circulando entre o público.",
+      "en": "Three stages, two days and a four-camera crew moving through the crowd."
+    },
+    "objetivo": {
+      "pt": "Entregar um filme de três minutos e cortes diários para as redes do festival.",
+      "en": "To deliver a three-minute film plus daily edits for the festival's social channels."
+    },
+    "papel": {
+      "pt": "Direção, coordenação de equipe e montagem.",
+      "en": "Direction, crew coordination and editing."
+    },
+    "capa": {
+      "url": "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3",
+      "alt": {
+        "pt": "Luzes de palco sobre o público de um show",
+        "en": "Stage lights over a concert crowd"
+      }
+    },
+    "video": { "plataforma": "youtube", "id": "Y-rmzh0PI3c" },
+    "registros": [
+      {
+        "url": "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14",
+        "alt": { "pt": "Multidão diante de um palco iluminado", "en": "Crowd facing a lit stage" }
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b",
+        "alt": { "pt": "Banda tocando para o público", "en": "Band performing for the audience" }
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1567942712661-82b9b407abbf",
+        "alt": { "pt": "Público com as mãos levantadas", "en": "Crowd raising their hands" }
+      }
+    ],
+    "creditos": [
+      {
+        "funcao": { "pt": "Direção e montagem", "en": "Director & editor" },
+        "nome": "Theo Arantes"
+      },
+      { "funcao": { "pt": "Câmeras", "en": "Camera operators" }, "nome": "Equipe Noite Aberta" }
+    ],
+    "ehDestaque": true
+  },
+  {
+    "slug": "materia-prima",
+    "titulo": { "pt": "Matéria-prima", "en": "Raw Material" },
+    "categoria": "COMERCIAL",
+    "ano": 2025,
+    "cliente": "Marca de design",
+    "local": { "pt": "Rio de Janeiro, RJ", "en": "Rio de Janeiro, Brazil" },
+    "resumo": {
+      "pt": "Filme publicitário sobre o processo por trás de cada peça.",
+      "en": "A commercial about the process behind every piece."
+    },
+    "contexto": {
+      "pt": "A marca queria mostrar o trabalho manual do ateliê sem cair no institucional.",
+      "en": "The brand wanted to show the studio's handcraft without sounding corporate."
+    },
+    "objetivo": {
+      "pt": "Um filme de 60 segundos e versões verticais para campanha digital.",
+      "en": "A 60-second film plus vertical cuts for a digital campaign."
+    },
+    "papel": {
+      "pt": "Direção de fotografia e color grading.",
+      "en": "Cinematography and color grading."
+    },
+    "capa": {
+      "url": "https://images.unsplash.com/photo-1632187981988-40f3cbaeef5e",
+      "alt": {
+        "pt": "Equipe de filmagem reunida em torno de uma câmera de cinema",
+        "en": "Film crew gathered around a cinema camera"
+      }
+    },
+    "video": { "plataforma": "youtube", "id": "R6MlUcmOul8" },
+    "registros": [
+      {
+        "url": "https://images.unsplash.com/photo-1681137063068-081072cf04b4",
+        "alt": {
+          "pt": "Equipe em volta da câmera em um set escuro",
+          "en": "Crew around a camera on a dark set"
+        }
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1515634928627-2a4e0dae3ddf",
+        "alt": { "pt": "Pessoa segurando uma claquete", "en": "Person holding a clapperboard" }
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1518930259200-3e5b29f42096",
+        "alt": { "pt": "Câmera de vídeo digital", "en": "Digital video camera" }
+      }
+    ],
+    "creditos": [
+      { "funcao": { "pt": "Direção", "en": "Director" }, "nome": "Marina Faria" },
+      {
+        "funcao": { "pt": "Direção de fotografia", "en": "Cinematographer" },
+        "nome": "Theo Arantes"
+      },
+      { "funcao": { "pt": "Produção", "en": "Production" }, "nome": "Estúdio Parceiro" }
+    ],
+    "ehDestaque": true
+  },
+  {
+    "slug": "farol",
+    "titulo": { "pt": "Farol", "en": "Lighthouse" },
+    "categoria": "LIFESTYLE",
+    "ano": 2023,
+    "local": { "pt": "Florianópolis, SC", "en": "Florianópolis, Brazil" },
+    "resumo": {
+      "pt": "Um dia na rotina de quem trocou a cidade pelo litoral.",
+      "en": "A day in the life of someone who swapped the city for the coast."
+    },
+    "contexto": {
+      "pt": "Projeto pessoal filmado ao longo de uma semana, sem roteiro fechado.",
+      "en": "A personal project shot over one week, without a fixed script."
+    },
+    "objetivo": {
+      "pt": "Testar uma linguagem mais livre, guiada pela luz e pelo tempo de cada lugar.",
+      "en": "To try a looser language, guided by the light and pace of each place."
+    },
+    "papel": {
+      "pt": "Direção, fotografia, montagem e cor.",
+      "en": "Direction, cinematography, editing and color."
+    },
+    "capa": {
+      "url": "https://images.unsplash.com/photo-1589255648807-28889e2e2b3b",
+      "alt": {
+        "pt": "Farol sobre rochas cercadas pelo mar",
+        "en": "Lighthouse on rocks surrounded by the sea"
+      }
+    },
+    "video": { "plataforma": "youtube", "id": "u9lj-c29dxI" },
+    "registros": [
+      {
+        "url": "https://images.unsplash.com/photo-1709233476156-9f85cf0d0c03",
+        "alt": { "pt": "Pequenos barcos na água", "en": "Small boats on the water" }
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1708833143700-4226b4a16c25",
+        "alt": { "pt": "Prancha de surfe na areia", "en": "Surfboard lying on the sand" }
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1562477694-77c9d6c067bd",
+        "alt": { "pt": "Cordilheira em preto e branco", "en": "Mountain range in black and white" }
+      }
+    ],
+    "creditos": [
+      {
+        "funcao": {
+          "pt": "Direção, fotografia e montagem",
+          "en": "Director, cinematographer & editor"
+        },
+        "nome": "Theo Arantes"
+      }
+    ],
+    "ehDestaque": true
+  }
+]

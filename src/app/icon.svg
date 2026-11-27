@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img">
+  <title>Portfólio</title>
+  <rect width="64" height="64" fill="#10151c"/>
+  <rect x="8" y="20" width="48" height="24" fill="#c5d0da"/>
+  <rect x="8" y="20" width="48" height="24" fill="none" stroke="#667c91" stroke-width="2"/>
+</svg>

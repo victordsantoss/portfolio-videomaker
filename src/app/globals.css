@@ -1,0 +1,230 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Cold Cinema. O escuro é o tema de referência; o claro tem identidade própria
+ * (papel gelado, tinta azul-ardósia), não é uma inversão.
+ */
+:root {
+  --background: #eef1f4;
+  --foreground: #121922;
+  --card: #e3e8ed;
+  --card-foreground: #121922;
+  --popover: #f5f7f9;
+  --popover-foreground: #121922;
+  --primary: #121922;
+  --primary-foreground: #f2f5f7;
+  --secondary: #dde3e9;
+  --secondary-foreground: #1c2632;
+  --muted: #dde3e9;
+  --muted-foreground: #4a5969;
+  --accent: #d5dde5;
+  --accent-foreground: #121922;
+  --destructive: #a43c3c;
+  --border: #cad3dc;
+  --input: #cad3dc;
+  --ring: #4b6176;
+  --destaque: #4b6176;
+  --texto-apoio: #2f3c4a;
+  --quadro: #d3dae2;
+  --radius: 0.125rem;
+}
+
+.dark {
+  --background: #10151c;
+  --foreground: #f2f5f7;
+  --card: #1c2632;
+  --card-foreground: #f2f5f7;
+  --popover: #141b24;
+  --popover-foreground: #f2f5f7;
+  --primary: #f2f5f7;
+  --primary-foreground: #10151c;
+  --secondary: #1c2632;
+  --secondary-foreground: #c5d0da;
+  --muted: #1c2632;
+  --muted-foreground: #8d9cac;
+  --accent: #1c2632;
+  --accent-foreground: #f2f5f7;
+  --destructive: #e27d7d;
+  --border: #243040;
+  --input: #2c3949;
+  --ring: #8499ae;
+  --destaque: #8499ae;
+  --texto-apoio: #c5d0da;
+  --quadro: #18202a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-destaque: var(--destaque);
+  --color-texto-apoio: var(--texto-apoio);
+  --color-quadro: var(--quadro);
+
+  --radius-sm: calc(var(--radius) * 0.5);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) * 2);
+  --radius-xl: calc(var(--radius) * 3);
+
+  --font-sans: var(--fonte-archivo), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Cores fixas da marca, para o que fica sobre imagem e não muda com o tema. */
+@theme {
+  --color-meia-noite: #10151c;
+  --color-ardosia: #1c2632;
+  --color-aco: #667c91;
+  --color-gelo: #c5d0da;
+  --color-geada: #f2f5f7;
+
+  --ease-cinema: cubic-bezier(0.2, 0.7, 0.1, 1);
+
+  --animate-abrir-quadro: abrir-quadro 1.8s var(--ease-cinema) both;
+  --animate-subir-linha: subir-linha 1.1s var(--ease-cinema) both;
+  --animate-surgir: surgir 1.2s var(--ease-cinema) both;
+  --animate-percorrer: percorrer 2.4s var(--ease-cinema) infinite;
+
+  @keyframes abrir-quadro {
+    from {
+      opacity: 0;
+      transform: scale(1.045);
+    }
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes subir-linha {
+    from {
+      transform: translateY(108%);
+    }
+    to {
+      transform: none;
+    }
+  }
+
+  @keyframes surgir {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes percorrer {
+    0% {
+      transform: translateY(-100%);
+    }
+    60%,
+    100% {
+      transform: translateY(260%);
+    }
+  }
+}
+
+/* Container editorial: largura máxima e respiro lateral do site inteiro. */
+@utility moldura {
+  width: 100%;
+  max-width: 92rem;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+
+  @media (width >= 48rem) {
+    padding-inline: 2.5rem;
+  }
+
+  @media (width >= 80rem) {
+    padding-inline: 3.5rem;
+  }
+}
+
+/* Títulos em Archivo expandida: a assinatura tipográfica do site, como uma cartela de filme. */
+@utility titulo-cinema {
+  font-stretch: 125%;
+  font-weight: 400;
+  letter-spacing: -0.035em;
+  line-height: 0.94;
+}
+
+@utility titulo-secao {
+  font-stretch: 112%;
+  font-weight: 450;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+}
+
+@utility numeros-tabulares {
+  font-variant-numeric: tabular-nums;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    @apply bg-background font-sans text-foreground antialiased;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+  }
+
+  ::selection {
+    background-color: var(--destaque);
+    color: var(--background);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
+}
+
+/*
+ * Transição de cores só durante a troca de tema. Fica fora de @layer de propósito:
+ * estilos sem camada vencem as utilitárias, sem precisar de !important.
+ */
+@media (prefers-reduced-motion: no-preference) {
+  .trocando-tema,
+  .trocando-tema *,
+  .trocando-tema *::before,
+  .trocando-tema *::after {
+    transition:
+      background-color 0.32s ease,
+      border-color 0.32s ease,
+      color 0.32s ease,
+      fill 0.32s ease;
+  }
+}
